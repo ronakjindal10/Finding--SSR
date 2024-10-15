@@ -1,0 +1,31 @@
+{
+  "name": "finding-ssr",
+  "version": "1.0.0",
+  "description": "A tool to analyze websites for React usage and server-side rendering",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "analysis",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "axios-rate-limit": "^1.4.0",
+    "axios-retry": "^4.5.0",
+    "cheerio": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "puppeteer": "^19.11.1",
+    "xml2js": "^0.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
